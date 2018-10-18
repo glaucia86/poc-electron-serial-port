@@ -4,7 +4,8 @@
   "description": "Desenvolvimento de uma poc que usa o Electron com a biblioteca serial port",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon",
+    "dev": "nodemon electron .",
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/glaucia86/poc-electron-serial-port#readme",
   "devDependencies": {
+    "electron": "^3.0.4",
     "eslint": "^5.7.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
