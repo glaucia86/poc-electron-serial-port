@@ -1,0 +1,25 @@
+{
+  "name": "poc-electron-serial-port",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de uma poc que usa o Electron com a biblioteca serial port",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/glaucia86/poc-electron-serial-port.git"
+  },
+  "author": "Glaucia Lemos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glaucia86/poc-electron-serial-port/issues"
+  },
+  "homepage": "https://github.com/glaucia86/poc-electron-serial-port#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
