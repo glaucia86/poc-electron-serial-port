@@ -2,7 +2,8 @@
 
 Desenvolvimento de uma aplicação POC em Electron que permita o uso de serial port.
 
-## Recursos Utilizados no Desenvolvimento: :mega: :rocket:
+
+## Recursos Utilizados no Desenvolvimento: :mega: 
 
 Para realizar as demos dessa série, se faz necessário instalar os seguintes programas:
 
@@ -15,7 +16,7 @@ Para realizar as demos dessa série, se faz necessário instalar os seguintes pr
 
 Caso queira testar a aplicação de maneira local basta seguir os passos abaixo:
 
-### Começando: 
+### Começando: :rocket:
 
 
 **documento em desenvolvimento**
