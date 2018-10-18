@@ -1,6 +1,12 @@
-# Desenvolvimento Aplicação em Electron & Serial Port: 
+# Desenvolvimento Aplicação em Electron com Serial Port: 
 
 Desenvolvimento de uma aplicação POC em Electron que permita o uso de serial port. Essa aplicação tem como objetivo final ser aplicado num ambiente Windows e ser usado em plataformas de Totem (auto atendimento).
+A aplicação também precisa permitir listar as portas:
+
+* USB
+* RS232
+* WebCam
+* Impressão
 
 
 ## Recursos Utilizados no Desenvolvimento: :mega: 
