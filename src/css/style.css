@@ -1,0 +1,9 @@
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+.container-full {
+  padding-top: 10%;
+  background-color: transparent;
+}

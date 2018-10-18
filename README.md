@@ -32,6 +32,11 @@ Para começar, você deve simplesmente clonar o repositório do projeto na sua m
 Antes de instalar as dependências no projeto, você precisa já ter instalado na sua máquina:
 
 * **Node.Js**: Caso não tenha, basta realizar o download [Aqui](https://nodejs.org/en/)
+* **Instalar Globalmente o Electron**: bastam digitar o comando abaixo:
+
+```
+> npm install electron -g
+```
 
 
 ### Instalando as Dependências (via Windows):
