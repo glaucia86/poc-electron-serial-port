@@ -4,7 +4,6 @@
   "description": "Desenvolvimento de uma poc que usa o Electron com a biblioteca serial port",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon electron .",
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
