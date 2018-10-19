@@ -10,7 +10,7 @@ const serialPort = require('serialport');
 const createTable = require('data-table');
 
 serialPort.list((err, ports) => {
-  console.log('ports', ports);
+  console.log('portas...:', ports);
 
   if (err) {
     document.getElementById('error').textContent = err.message;
