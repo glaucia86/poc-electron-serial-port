@@ -13,7 +13,7 @@ let mainWindow;
 function createWindow() {
   mainWindow = new BrowserWindow({ width: 1200, height: 600 });
 
-  mainWindow.loadFile('index.html');
+  mainWindow.loadURL('file://' + __dirname + './app/index.html');
 
   mainWindow.webContents.openDevTools();
 
