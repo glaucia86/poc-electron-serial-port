@@ -14,9 +14,9 @@
     "url": "https://github.com/glaucia86/poc-electron-serial-port.git"
   },
   "keywords": [
-    "Electron",
-    "NodeJs",
-    "SerialPort"
+    "electron",
+    "nodeJs",
+    "serialPort"
   ],
   "author": "Glaucia Lemos",
   "license": "MIT",
