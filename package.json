@@ -16,7 +16,10 @@
   "keywords": [
     "electron",
     "nodeJs",
-    "serialPort"
+    "serialPort",
+    "tutorial",
+    "poc",
+    "demo"
   ],
   "author": "Glaucia Lemos",
   "license": "MIT",
@@ -33,6 +36,7 @@
     "nodemon": "^1.18.4"
   },
   "dependencies": {
-    "serialport": "^7.0.2"
+    "serialport": "^7.0.2",
+    "data-table": "^2.0.0"
   }
 }
