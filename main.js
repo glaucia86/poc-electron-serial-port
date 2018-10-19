@@ -8,17 +8,17 @@
 const electron = require('electron');
 const { app, BrowserWindow } = require('electron');
 
-let win;
+let mainWindow;
 
 function createWindow() {
-  win = new BrowserWindow({ width: 800, height: 600 });
+  mainWindow = new BrowserWindow({ width: 1200, height: 600 });
 
-  win.loadFile('index.html');
+  mainWindow.loadFile('index.html');
 
-  win.webContents.openDevTools();
+  mainWindow.webContents.openDevTools();
 
-  win.on('closed', () => {
-    win = null;
+  mainWindow.on('closed', () => {
+    mainWindow = null;
   });
 }
 
@@ -31,7 +31,7 @@ app.on('window-all-closed', () => {
 });
 
 app.on('active', () => {
-  if (win == null) {
+  if (mainWindow === null) {
     createWindow();
   }
 });
