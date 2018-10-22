@@ -78,21 +78,16 @@ Passo: 3.1) Já para usuários Windows, para realizar a instalação do **node-g
 - **3.1.5)** Feito isso, agora execute os seguintes comandos abaixo dentro do mesmo diretório do appData:
 
 ```
-
 > node-gyp configure
 
 ```
 
 ```
-
 > node-gyp configure --msvs_version=2015
-
 ```
 
 ```
-
 > node-gyp build
-
 ```
 
 Seguindo todos esses passos, vocês estará para prono para instalar as depedências do projeto na pasta do projeto! ;)
