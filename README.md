@@ -24,6 +24,7 @@ Para realizar as demos dessa série, se faz necessário instalar os seguintes pr
 * Uso da Biblioteca v.1.x: [node-usb](https://www.npmjs.com/package/node-usb);
 * Uso da Biblioteca: [node-gyp](https://www.npmjs.com/package/node-gyp);
 * Uso da Biblioteca: [node-pre-gyp](https://www.npmjs.com/package/node-pre-gyp);
+* Uso da Biblioteca: [electron-packager](https://github.com/electron-userland/electron-packager);
 * ESlint;
 * ES5;
 
@@ -40,31 +41,39 @@ Para começar, você deve simplesmente clonar o repositório do projeto na sua m
 Antes de instalar as dependências no projeto, você precisa seguir os seguintes passos:
 
 Passo: 1) **Node.Js**: Caso não tenha, basta realizar o download [Aqui](https://nodejs.org/en/)
+s
 Passo: 2) **Instalar Globalmente o Electron**: bastam digitar o comando abaixo:
 
 ```
 > npm install -g electron
 ```
 
-Passo: 3) **Instalar Globalmente o node-gyp**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
+Passo: 3) **Instalar Globalmente o electron-packager**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
+
+```
+> npm install electron-packager -g
+```
+
+Passo: 4) **Instalar Globalmente o node-gyp**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
 
 ```
 > npm install node-gyp -g
 ```
 
-Passo: 3.1) Já para usuários Windows, para realizar a instalação do **node-gyp** se faz necessário seguir os passos abaixo:
 
- - **3.1.1)** Instalar o Python 2.x: [DOWNLOAD AQUI](https://www.python.org/downloads/)
+Passo: 4.1) Já para usuários Windows, para realizar a instalação do **node-gyp** se faz necessário seguir os passos abaixo:
 
-- **3.1.2)** Instalar globalmente o node-gyp: [DOCUMENTAÇÃO PARA INSTALAÇÃO DE MANEIRA CORRETA AQUI](https://github.com/nodejs/node-gyp)
+ - **4.1.1)** Instalar o Python 2.x: [DOWNLOAD AQUI](https://www.python.org/downloads/)
 
-- **3.1.3)** Criar manualmente o arquivo **binding.gyp** dentro do diretório do node_modules do **AppData**, conforme o exemplo abaixo:
+- **4.1.2)** Instalar globalmente o node-gyp: [DOCUMENTAÇÃO PARA INSTALAÇÃO DE MANEIRA CORRETA AQUI](https://github.com/nodejs/node-gyp)
+
+- **4.1.3)** Criar manualmente o arquivo **binding.gyp** dentro do diretório do node_modules do **AppData**, conforme o exemplo abaixo:
 
 ```
 > C:\users\UserName\appdata\roaming\npm\node_modules\node-gyp
 ```
 
-- **3.1.4)** Incluir no arquivo **binding.py** o seguinte bloco de código e salve:
+- **4.1.4)** Incluir no arquivo **binding.py** o seguinte bloco de código e salve:
 
 ```
 {
@@ -75,7 +84,7 @@ Passo: 3.1) Já para usuários Windows, para realizar a instalação do **node-g
 }
 ```
 
-- **3.1.5)** Feito isso, agora execute os seguintes comandos abaixo dentro do mesmo diretório do appData:
+- **4.1.5)** Feito isso, agora execute os seguintes comandos abaixo dentro do mesmo diretório do appData:
 
 ```
 > node-gyp configure

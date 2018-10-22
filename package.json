@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/glaucia86/poc-electron-serial-port#readme",
   "devDependencies": {
+    "electron-packager": "^12.2.0",
     "eslint": "^5.7.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
