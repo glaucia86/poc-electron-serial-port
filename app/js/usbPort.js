@@ -9,20 +9,20 @@
 const usb = require('usb');
 const $ = require('jquery');
 const devices = usb.getDeviceList();
-const $targetElm = $('#display')
+const $targetElm = $('#display');
 const $selectElm = $('<select />');
 
 devices.forEach((option, index) => {
-$selectElm.append(`<option value="${encodeURIComponent(JSON.stringify(option))}"> Dispositivo ${index} </option>`)
+  $selectElm.append(`<option value="${encodeURIComponent(JSON.stringify(option))}"> Dispositivo ${index} </option>`);
 });
 
 // Sobrescreve elemento na DOM
 $targetElm
   .html(
-    $selectElm.html()
-);
+    $selectElm.html(),
+  );
 
-$targetElm.change(function(evt) {
+$targetElm.change((evt) => {
   const value = decodeURIComponent(evt.target.value);
   alert(value);
-})
+});
