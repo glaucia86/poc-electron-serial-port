@@ -196,7 +196,33 @@ Wrote new app to release-builds/Aplicação POC Porta USB Zoox-darwin-x64
 
 É porque foi executado com sucesso! :smiley:
 
-## Instalação da Aplicação Electron em Diferentes Distros:
+## Criando o Executável da Aplicação Electron em Diferentes Distros:
+
+
+#### Linux:
+
+Para distros Linux, basta digitar o comando abaixo:
+
+```
+> 
+```
+
+
+#### Windows:
+
+Para distros Linux, basta digitar o comando abaixo:
+
+```
+> 
+```
+
+#### MAC:
+
+Para distros Linux, basta digitar o comando abaixo:
+
+```
+> 
+```
 
 
 ## Deseja Propor Melhorias no Código? Façam Pull Request!!!  :triangular_flag_on_post:
