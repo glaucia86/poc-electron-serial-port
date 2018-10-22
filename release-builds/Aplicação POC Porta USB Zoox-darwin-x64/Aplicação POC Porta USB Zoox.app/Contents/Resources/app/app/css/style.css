@@ -1,0 +1,25 @@
+body {
+  background-color: #222;
+  color: #fff;
+  -ms-overflow-style: scrollbar;
+  -webkit-app-region: drag;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="text"],
+button, a, select {
+  -webkit-app-region: no-drag;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  -webkit-user-select: none;
+}
+
+.container-full {
+  padding-top: 10%;
+  background-color: transparent;
+}
+
+

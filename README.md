@@ -146,6 +146,21 @@ Caso desejam instalar aplicação feita em suas distros, bastam seguir os passos
 
 #### MAC:
 
+O comando abaixo serve para criar o pacote de instalação do Mac. Digite no terminal o comando abaixo:
+```
+> electron-packager . --overwrite --platform=darwin --arch=x64 --icon=app/assets/icons/mac/zoox-icon.icns --prune=true --out=release-builds
+```
+
+Se aparecer no terminal a seguinte mensagem:
+
+``` 
+Packaging app for platform darwin x64 using electron v1.8.8
+Wrote new app to release-builds/Aplicação POC Porta USB Zoox-darwin-x64
+
+```
+
+É porque foi executado com sucesso! :smiley:
+
 
 ## Deseja Propor Melhorias no Código? Façam Pull Request!!!  :triangular_flag_on_post:
 

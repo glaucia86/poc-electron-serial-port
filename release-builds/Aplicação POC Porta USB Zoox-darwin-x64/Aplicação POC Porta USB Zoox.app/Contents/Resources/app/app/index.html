@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Identificador de Portas USB - Zoox</title>
+
+  <!-- Bloco de estilos -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bloco de Scripts -->
+  <script src="../main.js"></script>
+
+</head>
+
+<body>
+  <div class="container-full jumbotron">
+    <div class="container">
+      <div class="col-lg-12 text-center">
+        <h1 class="text-center"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Identificador de
+          Portas USB</h1>
+        <p class="text-center">
+          <img src="https://bit.ly/2P72NJb" alt="logo">
+        </p>
+        <h3 class="text-center">POC | Demo</h2>
+          <br /><br />
+          <p class="lead">
+            <a class="btn btn-primary btn-lg" href="https://github.com/glaucia86/poc-electron-serial-port" role="button">Documentação
+              da Aplicação</a>
+          </p>
+      </div>
+      <!--<div id="error"></div>
+      <div id="ports"></div>-->
+
+      <!-- Início select usando o 'node-usb'-->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group row">
+            <div class="col-xs-4">
+              <label for="sel1">Lista de Dispositivos Disponíveis:</label>
+              <select class="form-control" id="display"></select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fim select usando o 'node-usb'-->
+    </div>
+  </div>
+  <footer>
+    <p class="text-center">Desenvolvido com muito <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+      Rio de Janeiro - <a href="http://zooxsmart.com/pt-br/" target="_blank"> 2018</a></p>
+  </footer>
+</body>
+
+<!--<script>
+  require('js/renderer.js');
+</script>-->
+
+<script src="js/usbPort.js"></script>
+
+</html>
