@@ -1,11 +1,10 @@
 /**
  * Arquivo: usb.js
  * Data: 19/10/2018
- * Descrição: arquivo responsável por executar a biblioteca 'node-usb'
+ * Descrição: arquivo responsável por executar a biblioteca 'node-usb e listar as portas disponíveis num
+ * determinado aparelho.'
  * Author: Glaucia Lemos
  */
-
-'use strict'
 
 const usb = require('usb');
 const $ = require('jquery');
@@ -25,6 +24,5 @@ $targetElm
 
 $targetElm.change(function(evt) {
   const value = decodeURIComponent(evt.target.value);
-  // console.log('Aqui...: ', decodeURIComponent(evt.target.value));
-  // alert(value);
+  alert(value);
 })
