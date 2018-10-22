@@ -79,7 +79,6 @@ Passo: 3.1) Já para usuários Windows, para realizar a instalação do **node-g
 
 ```
 > node-gyp configure
-
 ```
 
 ```
