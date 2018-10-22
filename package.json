@@ -9,7 +9,8 @@
     "dev": "electron . --debug",
     "build": "./node_modules/.bin/electron-rebuild",
     "package-mac":"electron-packager . --overwrite --asar=true --platform=darwin --arch=x64 --icon=app/assets/icons/mac/zoox-icon.icns --prune=true --out=release-builds --darwinDarkModeSupport=true",
-    "package-win": "electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=win32 --arch=ia32 --icon=app/assets/icons/win/zoox-icon.ico --prune=true --out=release-builds --version-string.CompanyName=Zoox --version-string.FileDescription=Zoox --version-string.ProductName=\"Aplicação POC Electron & Porta USB\""
+    "package-win": "electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=win32 --arch=ia32 --icon=app/assets/icons/win/zoox-icon.ico --prune=true --out=release-builds --version-string.CompanyName=Zoox --version-string.FileDescription=Zoox --version-string.ProductName=\"Aplicação POC Electron & Porta USB\"",
+    "package-linux": "electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=linux --arch=x64 --icon=app/assets/icons/png/zoox-icon-128x128.png --prune=true --out=release-builds"
   },
   "repository": {
     "type": "git",

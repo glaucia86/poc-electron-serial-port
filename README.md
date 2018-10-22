@@ -154,6 +154,17 @@ Ou o comando no terminal:
 
 #### Linux: 
 
+O comando abaixo serve para criar o pacote de instalação da aplicação para distros Linux. Digite no terminal o comando abaixo:
+
+```
+> electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=linux --arch=x64 --icon=app/assets/icons/png/zoox-icon-128x128.png --prune=true --out=release-builds
+```
+
+Ou o comando no terminal: 
+
+```
+> npm run package-linux
+```
 
 #### MAC:
 
