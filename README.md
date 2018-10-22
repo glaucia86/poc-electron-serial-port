@@ -140,7 +140,7 @@ Ao executar o comando acima, apresentará a seguinte janela da aplicação no El
   <img src="https://i.imgsafe.org/e1/e1d1c0ae9a.jpeg"/>  
 </p>
 
-## Instalação da Aplicação Electron em Diferentes Distros:
+## Instalação de Pacotes/Builds em Diferentes Distros:
 
 Caso desejam instalar aplicação feita em suas distros, bastam seguir os passos abaixo:
 
@@ -195,6 +195,8 @@ Wrote new app to release-builds/Aplicação POC Porta USB Zoox-darwin-x64
 ```
 
 É porque foi executado com sucesso! :smiley:
+
+## Instalação da Aplicação Electron em Diferentes Distros:
 
 
 ## Deseja Propor Melhorias no Código? Façam Pull Request!!!  :triangular_flag_on_post:
