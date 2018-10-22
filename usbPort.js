@@ -24,6 +24,7 @@ $targetElm
 );
 
 $targetElm.change(function(evt) {
-  const value = JSON.parse(decodeURIComponent(evt.target.value));
-  alert(value);
+  const value = decodeURIComponent(evt.target.value);
+  // console.log('Aqui...: ', decodeURIComponent(evt.target.value));
+  // alert(value);
 })
