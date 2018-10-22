@@ -140,15 +140,33 @@ Caso desejam instalar aplicação feita em suas distros, bastam seguir os passos
 
 #### Windows:
 
+O comando abaixo serve para criar o pacote de instalação da aplicação para distros Windows. Digite no terminal o comando abaixo:
+
+```
+>
+```
+
+Ou o comando no terminal:
+
+```
+> npm run package-win
+```
 
 #### Linux: 
 
 
 #### MAC:
 
-O comando abaixo serve para criar o pacote de instalação do Mac. Digite no terminal o comando abaixo:
+O comando abaixo serve para criar o pacote de instalação da aplicação para distros Mac. Digite no terminal o comando abaixo:
+
 ```
 > electron-packager . --overwrite --platform=darwin --arch=x64 --icon=app/assets/icons/mac/zoox-icon.icns --prune=true --out=release-builds
+```
+
+Ou o comando no terminal:
+
+```
+> npm run package-mac
 ```
 
 Se aparecer no terminal a seguinte mensagem:

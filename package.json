@@ -1,6 +1,6 @@
 {
   "name": "poc-electron-serial-port",
-  "productName": "Aplicação POC Porta USB Zoox",
+  "productName": "Aplicação POC Electron & Porta USB",
   "version": "1.0.0",
   "description": "Desenvolvimento de uma poc que usa o Electron com a biblioteca serial port",
   "main": "main.js",
@@ -8,7 +8,8 @@
     "start": "electron .",
     "dev": "electron . --debug",
     "build": "./node_modules/.bin/electron-rebuild",
-    "package-mac":"electron-packager . --overwrite --asar=true --platform=darwin --arch=x64 --icon=app/assets/icons/mac/zoox-icon.icns --prune=true --out=release-builds --darwinDarkModeSupport=true"
+    "package-mac":"electron-packager . --overwrite --asar=true --platform=darwin --arch=x64 --icon=app/assets/icons/mac/zoox-icon.icns --prune=true --out=release-builds --darwinDarkModeSupport=true",
+    "package-win": "electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=win32 --arch=ia32 --icon=app/assets/icons/win/zoox-icon.ico --prune=true --out=release-builds --version-string.CompanyName=Zoox --version-string.FileDescription=Zoox --version-string.ProductName=\"Aplicação POC Electron & Porta USB\""
   },
   "repository": {
     "type": "git",
