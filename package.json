@@ -27,14 +27,13 @@
   },
   "homepage": "https://github.com/glaucia86/poc-electron-serial-port#readme",
   "devDependencies": {
-    "electron": "^3.0.4",
+    "electron": "^1.6.2",
     "eslint": "^5.7.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0"
   },
   "dependencies": {
-    "data-table": "^2.0.0",
     "serialport": "^7.0.2",
-    "usb": "^1.2.0"
+    "usb": "^1.3.3"
   }
 }
