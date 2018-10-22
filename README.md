@@ -43,7 +43,7 @@ Passo: 1) **Node.Js**: Caso não tenha, basta realizar o download [Aqui](https:/
 Passo: 2) **Instalar Globalmente o Electron**: bastam digitar o comando abaixo:
 
 ```
-> npm install electron -g
+> npm install -g electron
 ```
 
 Passo: 3) **Instalar Globalmente o node-gyp**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
