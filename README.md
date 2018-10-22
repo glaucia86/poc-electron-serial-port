@@ -54,17 +54,17 @@ Passo: 3) **Instalar Globalmente o node-gyp**: bastam digitar o comando abaixo (
 
 Passo: 3.1) Já para usuários Windows, para realizar a instalação do **node-gyp** se faz necessário seguir os passos abaixo:
 
-**3.1.1)** Instalar o Python 2.x: [DOWNLOAD AQUI](https://www.python.org/downloads/)
+ - **3.1.1)** Instalar o Python 2.x: [DOWNLOAD AQUI](https://www.python.org/downloads/)
 
-**3.1.2)** Instalar globalmente o node-gyp: [DOCUMENTAÇÃO PARA INSTALAÇÃO DE MANEIRA CORRETA AQUI](https://github.com/nodejs/node-gyp)
+- **3.1.2)** Instalar globalmente o node-gyp: [DOCUMENTAÇÃO PARA INSTALAÇÃO DE MANEIRA CORRETA AQUI](https://github.com/nodejs/node-gyp)
 
-**3.1.3)** Criar manualmente o arquivo **binding.gyp** dentro do diretório do node_modules do **AppData**, conforme o exemplo abaixo:
+- **3.1.3)** Criar manualmente o arquivo **binding.gyp** dentro do diretório do node_modules do **AppData**, conforme o exemplo abaixo:
 
 ```
 > C:\users\UserName\appdata\roaming\npm\node_modules\node-gyp
 ```
 
-**3.1.4)** Incluir no arquivo **binding.py** o seguinte bloco de código e salve:
+- **3.1.4)** Incluir no arquivo **binding.py** o seguinte bloco de código e salve:
 
 ```
 {
@@ -75,7 +75,7 @@ Passo: 3.1) Já para usuários Windows, para realizar a instalação do **node-g
 }
 ```
 
-**3.1.5)** Feito isso, agora execute os seguintes comandos abaixo dentro do mesmo diretório do appData:
+- **3.1.5)** Feito isso, agora execute os seguintes comandos abaixo dentro do mesmo diretório do appData:
 
 ```
 
@@ -133,7 +133,7 @@ Ao executar o comando acima, apresentará a seguinte janela da aplicação no El
 
 ## Instalação da Aplicação Electron em Diferentes Distros:
 
-Caso queira realizar a instalação da aplicação feita, basta seguir os passos abaixo:
+Caso desejam instalar aplicação feita em suas distros, bastam seguir os passos abaixo:
 
 #### Windows:
 
@@ -144,7 +144,7 @@ Caso queira realizar a instalação da aplicação feita, basta seguir os passos
 #### MAC:
 
 
-## Quer Propor Melhorias no Código? Façam Pull Request!!!  :triangular_flag_on_post:
+## Deseja Propor Melhorias no Código? Façam Pull Request!!!  :triangular_flag_on_post:
 
 Caso queiram que eu implemente algo no código, abram uma issue nesse repositório. Assim, todos poderão colaborar para o melhor desenvolvimento desse repositório. E sintam-se à vontade em fazer Pull Requests!!
 
