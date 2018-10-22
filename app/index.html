@@ -13,6 +13,7 @@
 
   <!-- Bloco de Scripts -->
   <script src="../main.js"></script>
+
 </head>
 
 <body>
@@ -24,9 +25,18 @@
           <img src="https://bit.ly/2P72NJb" alt="logo">
           <small>
             <p class="text-center">Testando aplicação com Electron....
-              Nós estamos usando node <script>document.write(process.versions.node)</script>,
-              Chrome <script>document.write(process.versions.chrome)</script>,
-              e Electron <script>document.write(process.versions.electron)</script>.
+              Nós estamos usando node <script>
+                document.write(process.versions.node)
+
+              </script>,
+              Chrome <script>
+                document.write(process.versions.chrome)
+
+              </script>,
+              e Electron <script>
+                document.write(process.versions.electron)
+
+              </script>.
             </p>
           </small>
         </p>
@@ -35,8 +45,11 @@
       <div id="ports"></div>-->
     </div>
 
-    <select id="but"> Listar os Devices Ativos</select>
-    <p id="display"></p>
+    <select id="but"> Listar os Devices Ativos
+
+    </select>
+    <select id="display"></select>
+
   </main>
 </body>
 
@@ -44,6 +57,6 @@
   require('./renderer.js');
 </script>-->
 
-<script src="../usb.js">
-</script>
+<script src="../usbPort.js"></script>
+
 </html>
