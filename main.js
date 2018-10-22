@@ -18,9 +18,13 @@ function createWindow() {
     minHeight: 600,
     titleBarStyle: 'hidden',
     frame: false,
+    backgroundColor: '#000000',
+    show: false,
   });
 
-  mainWindow.show();
+  mainWindow.once('ready-to-show', () => {
+    mainWindow.show();
+  });
 
   mainWindow.loadURL(`file://${__dirname}/app/index.html`);
 
