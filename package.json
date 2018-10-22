@@ -18,7 +18,8 @@
     "serialPort",
     "tutorial",
     "poc",
-    "demo"
+    "demo",
+    "node-usb"
   ],
   "author": "Glaucia Lemos",
   "license": "MIT",
