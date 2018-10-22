@@ -1,5 +1,6 @@
 {
   "name": "poc-electron-serial-port",
+  "productName": "Aplicação POC Porta USB Zoox",
   "version": "1.0.0",
   "description": "Desenvolvimento de uma poc que usa o Electron com a biblioteca serial port",
   "main": "main.js",
