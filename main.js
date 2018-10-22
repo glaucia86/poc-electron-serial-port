@@ -8,6 +8,7 @@
 const app = require('electron').app;
 const BrowserWindow = require('electron').BrowserWindow;
 
+const path = require('path');
 let mainWindow = null;
 
 function createWindow() {
@@ -20,6 +21,7 @@ function createWindow() {
     frame: false,
     backgroundColor: '#000000',
     show: false,
+    icon: path.join(__dirname, '/app/assets/icons/png/zoox-icon-64x64.png'),
   });
 
   mainWindow.once('ready-to-show', () => {
