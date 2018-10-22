@@ -143,7 +143,7 @@ Caso desejam instalar aplicação feita em suas distros, bastam seguir os passos
 O comando abaixo serve para criar o pacote de instalação da aplicação para distros Windows. Digite no terminal o comando abaixo:
 
 ```
->
+> electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=win32 --arch=ia32 --icon=app/assets/icons/win/zoox-icon.ico --prune=true --out=release-builds --version-string.CompanyName=Zoox --version-string.FileDescription=Zoox --version-string.ProductName=\"Aplicação POC Electron & Porta USB\"
 ```
 
 Ou o comando no terminal:
