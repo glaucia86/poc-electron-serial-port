@@ -67,6 +67,12 @@ Passo: 5) **Instalar Globalmente o node-pre-gyp**: bastam digitar o comando abai
 > npm install node-pre-gyp -g
 ```
 
+Passo: 6) **Instalar Globalmente o electron-builder**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
+
+```
+> npm install electron-builder -g
+```
+
 Passo: 0) **Instalar Globalmente o node-gyp**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
 
 ```
@@ -229,15 +235,8 @@ Para distros MAC, bastam digitar os comandos abaixo:
 **Primeiro**: deve executar o comando abaixo para poder gerar o build & pacotes para o MAC
 
 ```
-> npm run package-mac
+> npm run dist
 ```
-
-**Segundo**: depois de executar o comando acima, irá gerar no projeto uma pasta chamada **release-builds**. Após isso, executar o seguinte comando abaixo:
-
-```
-> npm run create-installer-mac
-```
-
 
 ## Deseja Propor Melhorias no Código? Façam Pull Request!!!  :triangular_flag_on_post:
 
