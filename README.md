@@ -60,12 +60,17 @@ Passo: 4) **Instalar Globalmente o electron-installer-dmg**: bastam digitar o co
 > npm i electron-installer-dmg -g
 ``` 
 
+Passo: 5) **Instalar Globalmente o node-pre-gyp**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
+
+```
+> npm install node-pre-gyp -g
+```
+
 Passo: 0) **Instalar Globalmente o node-gyp**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
 
 ```
 > npm install node-gyp -g
 ```
-
 
 Passo: 0.1) Já para usuários Windows, para realizar a instalação do **node-gyp** se faz necessário seguir os passos abaixo:
 
