@@ -232,7 +232,7 @@ Para distros MAC, bastam digitar os comandos abaixo:
 > npm run package-mac
 ```
 
-**Segundo**: depois de executar o comando acima, irá gerar no projeto uma pasta chamada **release-builds**. Caso após isso, executar o seguinte comando abaixo:
+**Segundo**: depois de executar o comando acima, irá gerar no projeto uma pasta chamada **release-builds**. Após isso, executar o seguinte comando abaixo:
 
 ```
 > npm run create-installer-mac
