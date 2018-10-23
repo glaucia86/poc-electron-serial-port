@@ -24,6 +24,7 @@ Para realizar as demos dessa série, se faz necessário instalar os seguintes pr
 * Uso da Biblioteca v.1.x: [node-usb](https://www.npmjs.com/package/node-usb);
 * Uso da Biblioteca: [node-gyp](https://www.npmjs.com/package/node-gyp);
 * Uso da Biblioteca: [node-pre-gyp](https://www.npmjs.com/package/node-pre-gyp);
+* Uso da Biblioteca: [electron-installer-dmg](https://github.com/electron-userland/electron-installer-dmg);
 * Uso da Biblioteca: [electron-packager](https://github.com/electron-userland/electron-packager);
 * ESlint;
 * ES5;
