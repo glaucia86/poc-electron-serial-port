@@ -207,7 +207,7 @@ Wrote new app to release-builds/Aplicação POC Porta USB Zoox-darwin-x64
 
 #### Linux:
 
-Para distros Linux, basta digitar o comando abaixo:
+Para distros Linux, bastam digitar o comando abaixo:
 
 ```
 > 
@@ -216,7 +216,7 @@ Para distros Linux, basta digitar o comando abaixo:
 
 #### Windows:
 
-Para distros Linux, basta digitar o comando abaixo:
+Para distros Windows, bastam digitar o comando abaixo:
 
 ```
 > 
@@ -224,10 +224,18 @@ Para distros Linux, basta digitar o comando abaixo:
 
 #### MAC:
 
-Para distros Linux, basta digitar o comando abaixo:
+Para distros MAC, bastam digitar os comandos abaixo:
+
+**Primeiro**: deve executar o comando abaixo para poder gerar o build & pacotes para o MAC
 
 ```
-> 
+> npm run package-mac
+```
+
+**Segundo**: depois de executar o comando acima, irá gerar no projeto uma pasta chamada **release-builds**. Caso após isso, executar o seguinte comando abaixo:
+
+```
+> npm run create-installer-mac
 ```
 
 

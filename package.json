@@ -1,6 +1,6 @@
 {
   "name": "poc-electron-serial-port",
-  "productName": "Aplicação POC Electron & Porta USB",
+  "productName": "Aplicacao POC Electron e Porta USB",
   "version": "1.0.0",
   "description": "Desenvolvimento de uma poc que usa o Electron com a biblioteca serial port",
   "main": "main.js",
@@ -10,7 +10,8 @@
     "build": "./node_modules/.bin/electron-rebuild",
     "package-mac": "electron-packager . --overwrite --asar=true --platform=darwin --arch=x64 --icon=app/assets/icons/mac/zoox-icon.icns --prune=true --out=release-builds --darwinDarkModeSupport=true",
     "package-win": "electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=win32 --arch=ia32 --icon=app/assets/icons/win/zoox-icon.ico --prune=true --out=release-builds --version-string.CompanyName=Zoox --version-string.FileDescription=Zoox --version-string.ProductName=\"Aplicação POC Electron & Porta USB\"",
-    "package-linux": "electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=linux --arch=x64 --icon=app/assets/icons/png/zoox-icon-128x128.png --prune=true --out=release-builds"
+    "package-linux": "electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=linux --arch=x64 --icon=app/assets/icons/png/zoox-icon-128x128.png --prune=true --out=release-builds",
+    "create-installer-mac": "electron-installer-dmg ./release-builds/Electron\\ pocApp\\ app-darwin-x64/Electron\\ pocApp\\ app.app poc-electron-serial-port --out=release-builds --overwrite --icon=app/assets/icons/mac/zoox-icon.icns"
   },
   "repository": {
     "type": "git",
