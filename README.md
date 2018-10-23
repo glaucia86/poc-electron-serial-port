@@ -1,7 +1,7 @@
 # POC | MVP: Aplicação em Electron com Serial Port & Identificador de Portas USB: 
 
 <p align="center">
-  <img src="https://i.imgsafe.org/e1/e1d1c0ae9a.jpeg"/>  
+  <img src="https://i.imgsafe.org/f5/f5d45ccbe7.jpeg"/>  
 </p>
 
 Desenvolvimento de uma aplicação POC em Electron que permita o uso de serial port. Essa aplicação tem como objetivo final ser aplicado num ambiente Windows e ser usado em plataformas de Totem (auto atendimento).
@@ -137,7 +137,7 @@ npm run start
 Ao executar o comando acima, apresentará a seguinte janela da aplicação no Electron:
 
 <p align="center">
-  <img src="https://i.imgsafe.org/e1/e1d1c0ae9a.jpeg"/>  
+  <img src="https://i.imgsafe.org/f5/f5d45ccbe7.jpeg"/>  
 </p>
 
 ## Instalação de Pacotes/Builds em Diferentes Distros:
