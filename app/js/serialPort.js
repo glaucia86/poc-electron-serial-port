@@ -1,5 +1,5 @@
 /**
- * Arquivo: renderer.js
+ * Arquivo: app/js/serialPort.js
  * Data: 18/10/2018
  * Descrição: arquivo responsável por renderizar o processo da janela.
  *  Tudo a respeito de Node.js estão disponíveis nesse processo.
@@ -7,7 +7,6 @@
  */
 
 const serialPort = require('serialport');
-const createTable = require('data-table');
 
 serialPort.list((err, ports) => {
   console.log('portas...:', ports);

@@ -1,4 +1,4 @@
-# Desenvolvimento Aplicação em Electron com Serial Port: 
+# POC | MVP: Aplicação em Electron com Serial Port & Identificador de Portas USB: 
 
 <p align="center">
   <img src="https://i.imgsafe.org/e1/e1d1c0ae9a.jpeg"/>  
@@ -7,10 +7,10 @@
 Desenvolvimento de uma aplicação POC em Electron que permita o uso de serial port. Essa aplicação tem como objetivo final ser aplicado num ambiente Windows e ser usado em plataformas de Totem (auto atendimento).
 A aplicação também precisa permitir listar as portas:
 
-* USB
-* RS232
-* WebCam
-* Impressão
+* USB;
+* RS232;
+* WebCam;
+* Impressora;
 
 
 ## Recursos Utilizados no Desenvolvimento: :mega: 

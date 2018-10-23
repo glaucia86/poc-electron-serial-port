@@ -21,7 +21,7 @@
     <div class="container">
       <div class="col-lg-12 text-center">
         <h1 class="text-center"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Identificador de
-          Portas USB</h1>
+          Portas USB & Serial Port</h1>
         <p class="text-center">
           <img src="https://bit.ly/2P72NJb" alt="logo">
         </p>
@@ -40,13 +40,27 @@
         <div class="col-md-12">
           <div class="form-group row">
             <div class="col-xs-4">
-              <label for="sel1">Lista de Dispositivos Disponíveis:</label>
+              <label for="sel1">Lista de Dispositivos USB Disponíveis:</label>
               <select class="form-control" id="display"></select>
             </div>
           </div>
         </div>
       </div>
       <!-- Fim select usando o 'node-usb'-->
+      <br />
+
+      <!-- Início select usando o 'serialport'-->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group row">
+            <div class="col-xs-4">
+              <label for="sel2">Lista de Serial Ports Disponíveis:</label>
+              <select class="form-control" id=""></select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fim select usando o 'serialport'-->
     </div>
   </div>
   <footer>
@@ -55,9 +69,7 @@
   </footer>
 </body>
 
-<!--<script>
-  require('js/renderer.js');
-</script>-->
+<!--<script src="js/serialPort.js"></script>-->
 
 <script src="js/usbPort.js"></script>
 
