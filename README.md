@@ -49,31 +49,25 @@ Passo: 2) **Instalar Globalmente o Electron**: bastam digitar o comando abaixo:
 > npm install -g electron
 ```
 
-Passo: 3) **Instalar Globalmente o electron-packager**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
+Passo: 3) **Instalar Globalmente o electron-packager**: bastam digitar o comando abaixo:
 
 ```
 > npm install -g electron-packager 
 ```
 
-Passo: 4) **Instalar Globalmente o electron-installer-dmg**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
-
-```
-> npm install -g electron-installer-dmg 
-``` 
-
-Passo: 5) **Instalar Globalmente o node-pre-gyp**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
+Passo: 5) **Instalar Globalmente o node-pre-gyp**: bastam digitar o comando abaixo: 
 
 ```
 > npm install -g node-pre-gyp 
 ```
 
-Passo: 6) **Instalar Globalmente o electron-builder**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
+Passo: 6) **Instalar Globalmente o electron-builder**: bastam digitar o comando abaixo:
 
 ```
 > npm install -g electron-builder 
 ```
 
-Passo: 0) **Instalar Globalmente o node-gyp**: bastam digitar o comando abaixo (usuários **Linux & MAC**):
+Passo: 0) **Instalar Globalmente o node-gyp**: bastam digitar o comando abaixo:
 
 ```
 > npm install -g node-gyp 
