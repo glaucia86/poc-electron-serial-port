@@ -85,7 +85,7 @@ Passo: 0.1) Já para usuários Windows, para realizar a instalação do **node-g
 > C:\users\UserName\appdata\roaming\npm\node_modules\node-gyp
 ```
 
-- **0.1.4)** Incluir no arquivo **binding.py** o seguinte bloco de código e salve:
+- **0.1.4)** Incluir no arquivo **binding.gyp** o seguinte bloco de código e salve:
 
 ```
 {
