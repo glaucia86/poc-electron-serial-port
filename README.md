@@ -67,6 +67,12 @@ Passo: 6) **Instalar Globalmente o electron-builder**: bastam digitar o comando 
 > npm install -g electron-builder 
 ```
 
+Passo: 7) **Instalar Globalmente o electron-installer-debian**: bastam digitar o comando abaixo: (Usuários Linux)
+
+```
+> npm install -g electron-installer-debian 
+```
+
 Passo: 0) **Instalar Globalmente o node-gyp**: bastam digitar o comando abaixo:
 
 ```
