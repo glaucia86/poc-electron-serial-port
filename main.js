@@ -9,7 +9,6 @@ const app = require('electron').app;
 const BrowserWindow = require('electron').BrowserWindow;
 
 const $ = require('jquery');
-
 const path = require('path');
 
 let mainWindow = null;
@@ -20,8 +19,6 @@ function createWindow() {
     height: 600,
     minWidth: 800,
     minHeight: 600,
-    titleBarStyle: 'hidden',
-    frame: false,
     backgroundColor: '#000000',
     show: false,
     icon: path.join(__dirname, '/app/assets/icons/png/zoox-icon.png'),

@@ -9,7 +9,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"],
 input[type="text"],
-button, a, select {
+textarea, button, a, select {
   -webkit-app-region: no-drag;
 }
 
