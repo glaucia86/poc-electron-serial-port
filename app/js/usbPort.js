@@ -1,5 +1,3 @@
-
-
 /**
  * Arquivo: app/js/usbPort.js
  * Data: 19/10/2018
@@ -7,6 +5,7 @@
  * determinado aparelho.'
  * Author: Glaucia Lemos
  */
+
 const usb = require('usb');
 
 (function usbPortInitializer() {

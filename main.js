@@ -5,11 +5,18 @@
  * Author: Glaucia Lemos
  */
 
+const electron = require('electron');
 const app = require('electron').app;
 const BrowserWindow = require('electron').BrowserWindow;
 
 const $ = require('jquery');
 const path = require('path');
+
+// Variáveis responsáveis pela Impressão com Electron:
+const fs = require('fs');
+const os = require('os');
+const ipc = electron.ipcMain;
+const shell = electron.shell;
 
 let mainWindow = null;
 
@@ -49,4 +56,20 @@ app.on('active', () => {
   if (mainWindow === null) {
     createWindow();
   }
+});
+
+// Lógica inerente a impressão em PDF com Electron:
+ipc.on('print-to-pdf', (evt) => {
+  const pdfPath = path.join(os.tmpdir(), 'print.pdf');
+  const win = BrowserWindow.fromWebContents(evt.sender);
+
+  win.webContents.printToPDF({}, (error, data) => {
+    if (error) return console.log(error.message);
+
+    fs.writeFile(pdfPath, data, (err) => {
+      if (err) return console.log(err.message);
+      shell.openExternal(`file://${pdfPath}`);
+      evt.sender.send('wrote-pdf', pdfPath);
+    });
+  });
 });
