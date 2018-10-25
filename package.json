@@ -41,6 +41,7 @@
   "homepage": "https://github.com/glaucia86/poc-electron-serial-port#readme",
   "devDependencies": {
     "electron": "^1.6.2",
+    "electron-builder": "^20.28.4",
     "electron-installer-dmg": "^2.0.0",
     "electron-packager": "^12.2.0",
     "eslint": "^5.7.0",
