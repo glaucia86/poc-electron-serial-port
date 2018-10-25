@@ -9,7 +9,8 @@
     "package-mac": "build-mac --dir",
     "package-win": "build-windows --dir",
     "package-win-2": "electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=win32 --arch=ia32 --icon=app/assets/icons/win/zoox-icon.ico --prune=true --out=release-builds --version-string.CompanyName=Zoox --version-string.FileDescription=Zoox --version-string.ProductName=\"Porta USB App\"",
-    "package-linux": "electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=linux --arch=x64 --icon=app/assets/icons/png/zoox-icon-128x128.png --prune=true --out=release-builds",
+    "package-linux": "electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=linux --arch=x64 --icon=app/assets/icons/png/zoox-icon.png --prune=true --out=release-builds",
+    "create-debian-installer": "electron-installer-debian --src release-builds/poc-electron-serial-port-linux-x64/ --arch amd64 --config debian.json",
     "dist": "build"
   },
   "build": {
