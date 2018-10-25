@@ -152,60 +152,6 @@ Ao executar o comando acima, apresentará a seguinte janela da aplicação no El
   <img src="https://i.imgsafe.org/f5/f5d45ccbe7.jpeg"/>  
 </p>
 
-## Instalação de Pacotes/Builds em Diferentes Distros:
-
-Caso desejam instalar aplicação feita em suas distros, bastam seguir os passos abaixo:
-
-#### Windows:
-
-O comando abaixo serve para criar o pacote de instalação da aplicação para distros Windows. Digite no terminal o comando abaixo:
-
-```
-> electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=win32 --arch=ia32 --icon=app/assets/icons/win/zoox-icon.ico --prune=true --out=release-builds --version-string.CompanyName=Zoox --version-string.FileDescription=Zoox --version-string.ProductName=\"Aplicação POC Electron & Porta USB\"
-```
-
-Ou o comando no terminal:
-
-```
-> npm run package-win
-```
-
-#### Linux: 
-
-O comando abaixo serve para criar o pacote de instalação da aplicação para distros Linux. Digite no terminal o comando abaixo:
-
-```
-> electron-packager . poc-electron-serial-port --overwrite --asar=true --platform=linux --arch=x64 --icon=app/assets/icons/png/zoox-icon-128x128.png --prune=true --out=release-builds
-```
-
-Ou o comando no terminal: 
-
-```
-> npm run package-linux
-```
-
-#### MAC:
-
-O comando abaixo serve para criar o pacote de instalação da aplicação para distros Mac. Digite no terminal o comando abaixo:
-
-```
-> electron-packager . --overwrite --platform=darwin --arch=x64 --icon=app/assets/icons/mac/zoox-icon.icns --prune=true --out=release-builds
-```
-
-Ou o comando no terminal:
-
-```
-> npm run package-mac
-```
-
-Se aparecer no terminal a seguinte mensagem:
-
-``` 
-Packaging app for platform darwin x64 using electron v1.8.8
-Wrote new app to release-builds/Aplicação POC Porta USB Zoox-darwin-x64
-
-```
-
 É porque foi executado com sucesso! :smiley:
 
 ## Criando o Executável da Aplicação Electron em Diferentes Distros:
@@ -216,9 +162,16 @@ Wrote new app to release-builds/Aplicação POC Porta USB Zoox-darwin-x64
 Para distros Linux, bastam digitar o comando abaixo:
 
 ```
-> 
+> npm run package-linux
 ```
 
+Criará uma pasta 'release-builds'. Após criado, digitar o comando abaixo:
+
+```
+> npm run create-debian-installer
+```
+
+E... vòilá! Bastam entrar na pasta 'release-builds' e encontrar a extensão .deb para fazer a instalação da aplicação no seu Linux! :smiley:
 
 #### Windows:
 

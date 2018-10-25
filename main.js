@@ -8,6 +8,8 @@
 const app = require('electron').app;
 const BrowserWindow = require('electron').BrowserWindow;
 
+const $ = require('jquery');
+
 const path = require('path');
 
 let mainWindow = null;

@@ -1,6 +1,9 @@
 
 module.exports = {
   "extends": "airbnb-base",
+  "globals": {
+    $: true
+  },
   "plugins": [
     "import"
   ],

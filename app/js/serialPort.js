@@ -8,24 +8,23 @@
 
 const serialPort = require('serialport');
 
-serialPort.list((err, ports) => {
-  console.log('portas...:', ports);
+(function serialPortInitializer() {
+  const $targetElm = $('#displaySerialPort');
+  const $selectElm = $('<select />');
 
-  if (err) {
-    document.getElementById('error').textContent = err.message;
-  } else {
-    document.getElementById('error').textContent = '';
-  }
+  serialPort.list().then((ports) => {
+    ports.forEach((option, index) => {
+      $selectElm.append(`<option value="${encodeURIComponent(JSON.stringify(option))}"> Dispositivo ${index} </option>`);
+    });
 
-  if (ports.length === 0) {
-    document.getElementById('error').textContent = 'Não encontramos nenhuma porta!';
-  }
+    $targetElm
+      .html(
+        $selectElm.html(),
+      );
 
-  const headers = Object.keys(ports[0]);
-  const table = createTable(headers);
-  tableHTML = '';
-  table.on('data', data => tableHTML += data);
-  table.on('end', () => document.getElementById('ports').innerHTML = tableHTML);
-  ports.forEach(port => table.write(port));
-  table.end();
-});
+    $targetElm.change((evt) => {
+      const value = decodeURIComponent(evt.target.value);
+      alert(value);
+    });
+  });
+}());
