@@ -1,0 +1,10 @@
+{
+  "dest": "release-builds/",
+  "icon": "app/assets/icons/png/zoox-icon.png",
+  "categories": [
+    "Utility"
+  ],
+  "lintianOverrides": [
+    "changelog-file-missing-in-native-package"
+  ]
+}
