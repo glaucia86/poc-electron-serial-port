@@ -1,5 +1,12 @@
 # POC | MVP: Aplicação em Electron com Serial Port & Identificador de Portas USB: 
 
+[![Build Status](https://travis-ci.org/glaucia86/poc-electron-serial-port.svg?branch=master)](https://travis-ci.org/glaucia86/poc-electron-serial-port)
+[![GitHub license](https://img.shields.io/github/license/glaucia86/poc-electron-serial-port.svg?style=for-the-badge)](https://github.com/glaucia86/poc-electron-serial-port/blob/master/LICENSE.md)
+[![Last version](https://img.shields.io/badge/version-v1.0.0-blue.svg?style=for-the-badge)](https://github.com/lexmartinez/ocr-electron-vue/blob/master/CHANGELOG.md)
+
+
+<br />
+
 <p align="center">
   <img src="https://i.imgsafe.org/f5/f5d45ccbe7.jpeg"/>  
 </p>
