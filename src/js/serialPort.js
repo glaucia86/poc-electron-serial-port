@@ -1,5 +1,5 @@
 /**
- * Arquivo: app/js/serialPort.js
+ * Arquivo: src/js/serialPort.js
  * Data: 18/10/2018
  * Descrição: arquivo responsável por renderizar o processo da janela.
  *  Tudo a respeito de Node.js estão disponíveis nesse processo.

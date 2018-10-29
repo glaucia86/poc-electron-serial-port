@@ -1,5 +1,5 @@
 /**
- * Arquivo: app/js/usbPort.js
+ * Arquivo: src/js/usbPort.js
  * Data: 19/10/2018
  * Descrição: arquivo responsável por executar a biblioteca 'node-usb e listar as portas disponíveis num
  * determinado aparelho.'
