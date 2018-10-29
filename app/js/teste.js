@@ -16,7 +16,7 @@ portaSerial.list().then((ports) => {
 
     port.on('open', (err) => {
       if (err) {
-        console.log('err opening port -> ', item.comName, '    ', err);
+        // console.log('err opening port -> ', item.comName, '    ', err);
       }
 
       const imprimir = 'Testando ... \n\n\n\n';
