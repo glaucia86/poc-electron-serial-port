@@ -7,7 +7,7 @@ portaSerial.list().then((ports) => {
 
 
   ports.forEach((item) => {
-    console.log('current  port ', item.comName);
+    // console.log('current  port ', item.comName);
 
 
     const port = new portaSerial(item.comName, {
@@ -25,6 +25,3 @@ portaSerial.list().then((ports) => {
     });
   });
 });
-
-// importante comando no terminal: cat < /dev/bus/usb/001/003
-// link importante: https://github.com/diariodonoob/youtube-serial-print/blob/master/app.js
