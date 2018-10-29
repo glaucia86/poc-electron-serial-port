@@ -1,8 +1,8 @@
-const portaSerial = require('serialport');
+const PortaSerial = require('serialport');
 
 // impressora -> /dev/ttyS31
 // /dev/tty.Bluetooth-Incoming-Port
-portaSerial.list().then((ports) => {
+PortaSerial.list().then((ports) => {
   // console.log("serial ports -> ", ports)
 
 
@@ -10,7 +10,7 @@ portaSerial.list().then((ports) => {
     // console.log('current  port ', item.comName);
 
 
-    const port = new portaSerial(item.comName, {
+    const port = new PortaSerial(item.comName, {
       baudRate: 9600,
     });
 

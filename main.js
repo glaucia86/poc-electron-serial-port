@@ -28,14 +28,14 @@ function createWindow() {
     minHeight: 600,
     backgroundColor: '#000000',
     show: false,
-    icon: path.join(__dirname, '/src/assets/icons/png/zoox-icon.png'),
+    icon: path.join(__dirname, '/app/assets/icons/png/zoox-icon.png'),
   });
 
   mainWindow.once('ready-to-show', () => {
     mainWindow.show();
   });
 
-  mainWindow.loadURL(`file://${__dirname}/src/index.html`);
+  mainWindow.loadURL(`file://${__dirname}/app/index.html`);
 
   mainWindow.webContents.openDevTools();
 

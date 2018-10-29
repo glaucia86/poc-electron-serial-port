@@ -1,8 +1,9 @@
-
 module.exports = {
   "extends": "airbnb-base",
   "globals": {
-    $: true
+    $: true,
+    "window": true,
+    "document": true
   },
   "plugins": [
     "import"
@@ -10,6 +11,12 @@ module.exports = {
   "rules": {
     "no-console": "off",
     "import/newline-after-import": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
     "no-unused-vars": 0,
     "max-len": 0
   }

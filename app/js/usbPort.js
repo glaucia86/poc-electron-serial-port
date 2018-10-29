@@ -1,5 +1,5 @@
 /**
- * Arquivo: src/js/usbPort.js
+ * Arquivo: app/js/usbPort.js
  * Data: 19/10/2018
  * Descrição: arquivo responsável por executar a biblioteca 'node-usb e listar as portas disponíveis num
  * determinado aparelho.'
@@ -19,12 +19,10 @@ const usb = require('usb');
 
   // Sobrescreve elemento na DOM
   $targetElm
-    .html(
-      $selectElm.html(),
-    );
+    .html($selectElm.html());
 
   $targetElm.change((evt) => {
     const value = decodeURIComponent(evt.target.value);
-    alert(value);
+    window.alert(value); // eslint-disable-line no-alert
   });
 }());

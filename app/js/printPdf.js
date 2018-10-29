@@ -1,5 +1,5 @@
 /**
- * Arquivo: src/js/printPdf.js
+ * Arquivo: app/js/printPdf.js
  * Data: 25/10/2018
  * Descrição: arquivo responsável por tratar a impressão para PDF do que for digitado na 'textarea'
  * na aplicação Electron.
