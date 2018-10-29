@@ -11,7 +11,7 @@ portaSerial.list().then((ports) => {
 
 
     const port = new portaSerial(item.comName, {
-      baudRate: 33600,
+      baudRate: 9600,
     });
 
     port.on('open', (err) => {
