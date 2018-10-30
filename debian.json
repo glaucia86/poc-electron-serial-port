@@ -1,6 +1,6 @@
 {
   "dest": "release-builds/",
-  "icon": "app/assets/icons/png/zoox-icon.png",
+  "icon": "src/assets/icons/png/zoox-icon.png",
   "categories": [
     "Utility"
   ],
