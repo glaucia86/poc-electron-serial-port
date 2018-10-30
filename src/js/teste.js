@@ -1,3 +1,11 @@
+/**
+ * Arquivo: src/js/teste.js
+ * Data: 30/10/2018
+ * Descrição: arquivo responsável realizar testes de impressão do cabo USB direto com a impressora.
+ * na aplicação Electron.
+ * Author: Glaucia Lemos
+ */
+
 const PortaSerial = require('serialport');
 
 // impressora -> /dev/ttyS31
