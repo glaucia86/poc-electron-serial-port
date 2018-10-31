@@ -19,10 +19,12 @@ const usb = require('usb');
 
   // Sobrescreve elemento na DOM
   $targetElm
-    .html($selectElm.html());
+    .html(
+      $selectElm.html(),
+    );
 
   $targetElm.change((evt) => {
     const value = decodeURIComponent(evt.target.value);
-    window.alert(value); // eslint-disable-line no-alert
+    alert(value);
   });
 }());

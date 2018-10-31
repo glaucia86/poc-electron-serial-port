@@ -1,16 +1,8 @@
-/**
- * Arquivo: src/js/teste.js
- * Data: 30/10/2018
- * Descrição: arquivo responsável realizar testes de impressão do cabo USB direto com a impressora.
- * na aplicação Electron.
- * Author: Glaucia Lemos
- */
-
-const PortaSerial = require('serialport');
+const portaSerial = require('serialport');
 
 // impressora -> /dev/ttyS31
 // /dev/tty.Bluetooth-Incoming-Port
-PortaSerial.list().then((ports) => {
+portaSerial.list().then((ports) => {
   // console.log("serial ports -> ", ports)
 
 
@@ -18,7 +10,7 @@ PortaSerial.list().then((ports) => {
     // console.log('current  port ', item.comName);
 
 
-    const port = new PortaSerial(item.comName, {
+    const port = new portaSerial(item.comName, {
       baudRate: 9600,
     });
 
